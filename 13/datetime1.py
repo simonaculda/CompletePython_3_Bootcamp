@@ -1,0 +1,18 @@
+import datetime
+# t = datetime.time(5, 25, 1)
+#
+# print(t)
+# print(t.hour)
+# print(t.minute)
+# print(t.microsecond)
+# print(datetime.time.min)
+# print(datetime.time.max)
+# print(datetime.time.resolution)
+# today = datetime.date.today()
+# print(today)
+# print(today.timetuple())
+d1 = datetime.date(2017, 3, 11)
+print(d1)
+d2 = d1.replace(year=1990)
+print(d2)
+print(d1-d2)

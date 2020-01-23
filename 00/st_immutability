@@ -1,0 +1,15 @@
+# name = "Sam"
+# # name[0] = "P"
+# last_letters = name[1:]
+# print('P' + last_letters)
+#
+#
+print('This is a string {}'.format('INSERTED'))
+print('The {0} {0} {0}'.format('fox', 'brown', 'quick'))
+print('The {q} {f} {b}'.format(f='fox', b='brown', q='quick'))
+result = 100/777
+# Float formatting follows "{value:width.precision f}"
+print("The result was {r:1.2f}".format(r=result))
+#f string
+name = "Jose"
+print(f'Hello, his name is {name}')
